@@ -1,0 +1,8 @@
+/* ====== media (requires mod.css) ====== */
+.media{margin: 10px;}
+.media:after,
+.bd:after{clear:both;display:block;overflow:hidden;height:0;content:".";}
+.media .body{display:table-cell; zoom:1;}
+.media .img{float:left; margin-right: 10px;}
+.media .img img{display:block;}
+.media .img-rev{float:right; margin-left: 10px;}

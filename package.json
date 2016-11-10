@@ -1,0 +1,23 @@
+{
+  "name": "workshop-bem",
+  "version": "1.0.0",
+  "description": "Workshop BEM",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "browser-sync start --server ./src/ --files './src/*.html' --files './src/stylesheets/*.css'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tzi/workshop-BEM.git"
+  },
+  "author": "Thomas ZILLIOX",
+  "license": "ISC",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/tzi/workshop-BEM/issues"
+  },
+  "homepage": "https://github.com/tzi/workshop-BEM#readme",
+  "devDependencies": {
+    "browser-sync": "^2.17.5"
+  }
+}
